@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Styling the WDD 131 AREA */
+header h1 {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    padding: 1.2rem; /*added space to the blue area(added more blue) */
+}
+
+header span {
+    color: #ffcc00;
+}
+/* Styling the nav links( canvas as co) */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #D4AFB9;
+}
+
+nav a {
+    text-decoration: none; /*removes underline in nav links*/
+    padding: 0.7rem; /*Added more space to the nav links(added more pink)*/
+    color: #000000;
+    display: block;
+    font-family: Arial, sans-serif;
+}
+
+nav a:hover {
+    background-color: papayawhip;
+    border-radius: 5px;
+    color: #ff002b;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: minmax(300px, 3fr) 1fr;
+    width: 100%;
+}
+
+main {
+    max-width: 100%;
+}
+
+.card {
+    margin: 1.2rem;
+    border: 1px solid #000; /*Added line around the page and divided where it need to divide */
+    border-radius: 10px; /*Shaped the line in abit circlar shape. */
+}
+
+.card h2 {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: .5rem;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px; /*For the blue to allign with the black tiny line around the */
+}
+
+.about img {
+    border: 3px solid transparent;
+    background: linear-gradient(to right, #293241, #D4AFB9);
+    border-image-slice: 1;
+    float: right;
+    margin: 5px;
+    margin-bottom: 20px;
+    border-radius: 200px;
+    width: 20px;
+    height: auto;
+
+}
+.about {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.country h3 {
+    border-bottom: 1.2px solid #000;
+    margin: 30px;
+    text-align: center;font-size: 1.4rem;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+
+}
+
+.contry-grid {
+    display: flex;
+    margin: 1rem;
+}
+
+.country img {
+    padding: 5px 10px;
+    width: 200px;
+    height: auto;
+}
+
+.country p {
+    font-family: Arial, sans-serif;
+}
+
+figcaption {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+}
+
+.card ul {
+    margin: 0 0 0 20px;
+}
+
+li {
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.visually-hidden {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+footer {
+    background-color: #003366;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    padding: 5px;
+}
