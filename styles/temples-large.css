@@ -1,0 +1,27 @@
+/* Media Query for Larger Screens */
+@media (min-width: 768px) {
+    #hamburger {
+        display: none; /* Hide hamburger on large screens */
+    }
+
+    .nav-menu {
+        display: flex !important; /* Force horizontal menu */
+        flex-direction: row;
+        position: static;
+        width: auto;
+        background: none;
+        box-shadow: none;
+    }
+
+    .nav-menu li {
+        padding: 10px 20px;
+    }
+
+    .nav-menu li a {
+        color: #ffd700;
+    }
+
+    .nav-menu li a:hover {
+        text-decoration: underline;
+    }
+}
