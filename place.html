@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover the captivating beauty of nature through our immersive Temple Album, showcasing stunning landscapes and serene sceneries. Explore a thoughtfully curated collection of images designed to inspire and connect you with the essence of the natural world.">
+    <title>Rice Terraces</title>
+    <link rel="preload" href="images/image_large.webp" as="image">
+    <link rel="stylesheet" href="styles/place.css">
+</head>
+<body>
+    <!--header section -->
+    <header>
+        <h1>Rice Terraces</h1>
+        <picture>
+            <source media="(min-width: 768px)" srcset="images/image_large.webp">
+            <source media="(min-width: 480px)" srcset="images/image-medium.webp">
+            <img src="images/image_large.webp" alt="Beautiful Rice Terraces" loading="lazy">
+        </picture>
+    </header>
+
+    <section id="data">
+        <h2>Data</h2>
+        <ul>
+            <li><strong>Area:</strong> 587,041 sq km</li>
+            <li><strong>Population:</strong> 27,691,018</li>
+            <li><strong>Capital:</strong> Antananarivo</li>
+            <li><strong>Languages:</strong> Malagasy, French</li>
+            <li><strong>Currency:</strong> Malagasy Ariary</li>
+            <li><strong>Time Zone:</strong> UTC+3</li>
+            <li><strong>Calling Code:</strong> +261</li>
+            <li><strong>Internet TLD:</strong> .mg</li>
+        </ul>
+    </section>
+    
+    <section id="weather">
+        <h2>Weather</h2>
+        <img src="images/whether-icon.svg" alt="Partly Cloudy Weather" width="50">
+        <p><strong>Temperature:</strong> 10 °C</p>
+        <p><strong>Conditions:</strong> Partly Cloudy</p>
+        <p><strong>Wind Speed:</strong> 5 km/h</p>
+        <p><strong>Wind Chill:</strong> <span id="windChill">Calculating...</span></p>
+    </section>
+    
+
+    <!--animal section-->
+    <section id="culture">
+        <h2>Animal and Culture</h2>
+        <img src="images/birds.webp" alt="Flying Birds" width="700" height="500">
+        <p>Birds soring above the rice terraces create a builtiful and serene atmosphere.</p>
+    </section>
+
+    <!--footer section-->
+    <footer>
+        <p>©2025 🌸 Ezinne Kalu | Lagos Nigeria🌸</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+
+    <script src="scripts/place.js" defer></script>
+</body>
+</html>

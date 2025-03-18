@@ -1,0 +1,86 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #2a5934;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+picture img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    object-fit: cover;
+}
+
+/* Weather Section */
+#data, #weather {
+    background-color: #f4f4f9;
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.weather-icon {
+    font-size: 2rem;
+}
+
+.mobile-weather-icon {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .mobile-weather-icon {
+        display: block;
+        width: 48px;
+        height: 48px;
+        margin-top: 10px;
+    }
+    .weather-icon {
+        display: none;
+    }
+}
+
+/* Culture Section */
+#culture {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#culture img {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    margin: 10px auto;
+    border: 3px solid #2a5934;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Footer */
+footer {
+    background-color: #2a5934;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
